@@ -1,0 +1,25 @@
+.numbers {
+    padding: 70px 0;
+    background-image: url("../../../../assets/images/funfact_bg.png");
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    background-color: rgba(236, 240, 243, 0.3);
+
+    .numbers__content {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        text-align: center;
+        .numbers__item {
+            h1 {
+                @include styleText($color-orange-0, $fs-4, $fw-bold);
+            }
+            p {
+                @include styleText($color-black-0, $fs-3, normal);
+            }
+        }
+    }
+}

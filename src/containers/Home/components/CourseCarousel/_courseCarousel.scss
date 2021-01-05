@@ -1,0 +1,41 @@
+.courseCarousel {
+    .courseCarousel__content {
+        background-image: url(../../../../assets/images/carousel-01.jpg);
+        height: 700px;
+        background-size: cover;
+        color: black;
+        text-align: left;
+        padding: 10% 5%;
+
+        .courseCarousel__title {
+            font-size: 35px;
+        }
+
+        span {
+            font-size: 30px;
+            font-weight: 0;
+        }
+
+        p {
+            margin: 20px 0;
+            font-size: 16px;
+        }
+
+        .courseCarousel__link {
+            border: 1px solid white;
+            font-weight: bold;
+            color: white;
+            width: 200px;
+            top: 50px;
+            padding: 10px 15px;
+            text-decoration: none;
+            transition: all 0.5s;
+            letter-spacing: 1px;
+            word-spacing: 2px;
+            &:hover {
+                background-color: #faa819;
+                border-color: #faa819;
+            }
+        }
+    }
+}
