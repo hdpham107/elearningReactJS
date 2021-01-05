@@ -2,13 +2,13 @@ import React, { useEffect, useState } from 'react';
 import { useSelector, useDispatch } from "react-redux";
 import { actionFetchUsersList } from "./modules/action";
 import Loader from "../../../components/Loader";
-import queryString from "query-string";
-import Pagination from '@material-ui/lab/Pagination';
-import {
-  useHistory,
-  useLocation,
-  Link,
-} from "react-router-dom";
+// import queryString from "query-string";
+// import Pagination from '@material-ui/lab/Pagination';
+// import {
+//   useHistory,
+//   useLocation,
+//   Link,
+// } from "react-router-dom";
 import useTable from "../components/UseTable";
 import { Paper, makeStyles, TableBody, TableRow, TableCell, Toolbar, InputAdornment, Checkbox } from '@material-ui/core';
 import PageHeader from "../components/PageHeader";
@@ -38,7 +38,7 @@ export default function Users(props) {
   const classes = useStyles();
   const loading = useSelector(state => state.usersListReducer.loading);
   const data = useSelector(state => state.usersListReducer.data);
-  const error = useSelector(state => state.usersListReducer.error);
+  // const error = useSelector(state => state.usersListReducer.error);
   const dispatch = useDispatch();
 
   // const [records, setRecords] = useState([]);
@@ -64,7 +64,7 @@ export default function Users(props) {
     let target = e.target;
     setFilterFn({
       fn: items => {
-        if (target.value == "")
+        if (target.value === "")
           return items;
         else
           return items.filter(x => x.hoTen.toLowerCase().includes(target.value))

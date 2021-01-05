@@ -1,4 +1,4 @@
-import { lazy } from 'react';
+// import { lazy } from 'react';
 import Home from '../containers/Home/HomePage';
 import DetailCoursePage from '../containers/Home/DetailPage';
 // import CategoriesPage from '../containers/Home/CategoriesPage';

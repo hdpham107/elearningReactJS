@@ -56,7 +56,7 @@ class index extends Component {
             </div>
             <div className="intructor mb-3">
               <span>Created by</span>
-              <a>Robin Jesper</a>
+              <a href="/">Robin Jesper</a>
             </div>
             <div className="last-update mb-3">
               <i className="fa fa-cog " />
@@ -74,7 +74,7 @@ class index extends Component {
         <section className="sidebar">
           <div className="sidebar-content">
             <div className="preview mb-3">
-              {data && <img src={data.hinhAnh} />}
+              {data && <img src={data.hinhAnh} alt="" />}
             </div>
           </div>
           <div className="price mb-3 pl-3">
@@ -255,7 +255,7 @@ class index extends Component {
             <div className="review-image mb-3">
               <img
                 src="https://img-a.udemycdn.com/user/75x75/33215668_7035.jpg?ZrL2SfxE03pMshFHt_ENEdwFDJKBMHbaFrOT9mIZ3ms8bD5qT7_pGv0FwiGTVATORAewN2lTIqjfMhUb5ja560qbSanOm3bPfxCLsPcVZHkaqH54_E-1YrH2oQ"
-                alt
+                alt=""
               />
             </div>
             <div className="review-information mb-3">
@@ -285,7 +285,7 @@ class index extends Component {
             <div className="review-button mb-3">
               <button className="btn btn-success mr-2">Like</button>
               <button className="btn btn-danger mr-2">Dislike</button>
-              <a>Report</a>
+              <a href="/">Report</a>
             </div>
           </div>
           <div className="review-items">
@@ -293,7 +293,7 @@ class index extends Component {
             <div className="review-image mb-3">
               <img
                 src="https://img-a.udemycdn.com/user/75x75/2602294_150c.jpg?S01oGkIA-vzPQj5ZhFGBn56U83cNEcCnQ4zczrgXDFpPASY7Kzw3errh7LSON9M8tsEzmro5-nSoWIddMLFRv1EocDu0TJGzvNJIvKUGYR8Sn2GoWig1kxVQ"
-                alt
+                alt=""
               />
             </div>
             <div className="review-information mb-3">
@@ -323,7 +323,7 @@ class index extends Component {
             <div className="review-button mb-3">
               <button className="btn btn-success mr-2">Like</button>
               <button className="btn btn-danger mr-2">Dislike</button>
-              <a>Report</a>
+              <a href="/">Report</a>
             </div>
           </div>
         </section>
@@ -336,7 +336,7 @@ class index extends Component {
           <div className="instructor-image mb-3">
             <img
               src="https://img-a.udemycdn.com/user/75x75/36921905_7a32_6.jpg?8rbOpu_ll6NDkvKcnmscCrs60XudmeWLLkCClAxNUwAXHBbiWMcQA014wLAQxXKT9J888Hv2t18x2JzMMPwfhLuQUCX0EOnPDwOJDDujyllsslg73Kq0TfYHuFpt"
-              alt
+              alt=""
             />
           </div>
           <div className="instructor-information mb-3">
